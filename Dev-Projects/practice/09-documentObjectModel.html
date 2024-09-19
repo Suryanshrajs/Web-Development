@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docment Object Model</title>
+</head>
+<body>
+
+    <button>Hello</button>
+    <button class="js-button">Second Button</button>
+    
+    
+    <script>
+
+
+
+    document.querySelector('.js-button').innerHTML = 'js-button'
+
+    const buttonElement = document.querySelector('.js-button')
+    console.log(buttonElement)
+    buttonElement.innerHTML = 'changexd'
+
+    /*
+    console.log(document.querySelector('button'))
+    const buttonElement = document.querySelector('button')
+    */
+
+
+    //console.log(buttonElement)
+
+        /*
+        console.log(document.querySelector('button'))
+        console.log(document.querySelector('button').innerText)
+        console.log(document.querySelector('button').innerHTML)
+        document.querySelector('button').innerHTML = 'changed'
+        */
+
+
+
+        /*
+        console.log(document.title)
+        document.title = 'changed'
+
+        console.log(document.body)
+        console.log(typeof document.body)
+        console.log(document.body.innerHTML)
+        document.body.innerHTML = " <button>Button inside Java Script</button>";
+        console.log(document.body.innerHTML)
+        */
+
+       /*
+       document.body.innerHTML = "hii baby";
+       document.title = 'Good Job!';
+       */
+    </script>
+
+</body>
+</html>
