@@ -26,7 +26,7 @@
 
 ### Additional Addon to React
 - Router (React do not have router)
-- State Management(react do not have state management)
+- State Management (react do not have state management)
 - redux, redux toolkit, zustand, context API
 - class based component
 - BASS apps (social media clone, e-commerce app)
