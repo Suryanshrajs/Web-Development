@@ -19,7 +19,7 @@
 ### React is a Library
 
 ### Topic to learn
-- core of react (statr or UI manuplation, JSX)
+- core of react (state or UI manuplation, JSX)
 - component reusability
 - how to propagate change(hooks)
 - resuing of component (props)
