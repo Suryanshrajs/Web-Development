@@ -35,3 +35,7 @@
 - Raect is not a complete solution in most case
     - no seo, browser render of JS, no routing
 - Framework (Next Js, Gatsby, Remix)
+
+
+- NPM (node packet manager)
+- NPX (node packet executer) : when we dont want to install , only we want to execute
