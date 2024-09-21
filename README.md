@@ -13,7 +13,7 @@ In this repository, you will find all the code and projects I’ve been working 
 Here are some of the technologies and tools that I am using as part of my learning:
 
 - **Languages:** HTML, CSS, JavaScript
-- **Libraries/Frameworks:** 
+- **Libraries/Frameworks:** React
 - **Databases:** 
 - **Version Control:**
 - **Tools:**
