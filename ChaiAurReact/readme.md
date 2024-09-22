@@ -39,3 +39,14 @@
 
 - NPM (node packet manager)
 - NPX (node packet executer) : when we dont want to install , only we want to execute
+
+
+
+
+
+
+
+
+
+## Learnings 
+- Creating my own react library and jSX
