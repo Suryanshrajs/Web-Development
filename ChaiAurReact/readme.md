@@ -49,4 +49,4 @@
 
 
 ## Learnings 
-- Creating my own react library and jSX
+- Creating my own react library and JSX
