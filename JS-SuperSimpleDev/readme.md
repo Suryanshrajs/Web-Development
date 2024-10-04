@@ -109,3 +109,16 @@ const{message, price} = object4
 
 
 -  const newArray = myArray.slice(index, n)  => it will create a new array from using element of previous array without removing previous array elements   index=starting index and n = length of new array
+
+
+- array always store refernce not data, if we copy an array into new array , in that case new array will store refernce of previous array .
+- if we do any changes in new array . it will reflect in old array too
+
+
+<div> 
+<p>shortcut destructuring</p>
+
+<p>const [firstValue] = [1,2,3];</p>
+<p>console.log(firstValue);</p>
+<p>console.log(secondValue);</p>
+</div>

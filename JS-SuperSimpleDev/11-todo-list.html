@@ -1,54 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Arrays and Loops</title>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style/11-todo-list.css">
   </head>
   <body>
+    <p>Todo List Practice 1</p>
+    <div class="todo-input-grid">
+        <input class="js-name-input"  placeholder="todo name" type="text" />
+    <input class="todo-date" type="date" name="" id="">
+    <button class="todo-add" type="submit" onclick="addData();">Add</button>
+    </div>
     
-    <script>
-      const myArray = [10,20,30];
-      console.log(myArray);
-      console.log(myArray[2]);
+  
 
-      myArray[0] = 99;
-      console.log(myArray[0]);
+    <div class="todo-list todo-grid">
+    
+    </div>
 
-      myArray2 = [1, "hello", true, {name : "Suryansh"}, [1,2]];
-      console.log(typeof(myArray2));
-      console.log(typeof(myArray));
-
-      console.log(Array.isArray(myArray));
-
-      console.log(myArray.length);
-
-      myArray.push(100);
-
-      console.log(myArray);
-
-      // myArray.splice(0,2);
-
-      const newArray = myArray.slice(0,2);
-
-      console.log(myArray)
-      console.log(newArray)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </script>
-
-
+  <script src="scripts/11-todo-list.js"></script>
   </body>
 </html>
