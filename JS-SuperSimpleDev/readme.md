@@ -139,9 +139,7 @@ const{message, price} = object4
 
 
 
-Here’s a more structured and polished version of your README file. I’ve organized the content for clarity and added some headings for better navigation. Feel free to customize any part to fit your style!
 
----
 
 # JavaScript Concepts Overview
 
@@ -287,5 +285,3 @@ console.log(firstValue); // 1
 - A callback function is a function passed as an argument to another function.
 
 ---
-
-Feel free to modify or expand on any section, and let me know if you need further assistance!
