@@ -23,3 +23,10 @@
 <hr>
 
 
+#### type of elements
+- inline
+- inline-block
+- block
+
+
+### nested layout technique

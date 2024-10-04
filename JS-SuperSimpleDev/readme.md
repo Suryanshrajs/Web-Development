@@ -92,3 +92,20 @@ const{message, price} = object4
 # windown object
 - its represent the browser
 - everything inside the browser represents the window objects
+
+
+
+
+
+
+
+----
+
+### Array and Loops
+- myArray2 = [1, "hello", true, {name : "Suryansh"}, [1,2]]   typeof myarray2 => object
+- myArray1 = [1,2,3,4,5,67]  typeof myarray1 => object
+
+- myArray.splice(starting Index, n) => it will remove the n values from starting index          Example :      myArray.splice(0,2);
+
+
+-  const newArray = myArray.splice(index, n)  => it will create a new array from using element of previous array without removing previous array elements   index=starting index and n = length of new array

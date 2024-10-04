@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Youtube</title>
+
+    <style>
+        p{
+            font-family: Roboto, Arial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .thumbnail{
+            width: 100%;
+
+         
+        }
+        .search-bar{
+            font-size: 20px;
+            margin-left: 0px;
+            display: block;
+        }
+    
+        /* .video-author{
+            display:inline-block;
+        }
+        .video-stats{
+            display:inline-block;
+        } */
+        /* .video-preview{
+            width:300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            margin-top: 15px;
+        } */
+        .video-info-grid{
+           display: grid;
+           grid-template-columns: 50px 1fr; 
+        }
+
+       
+         .profile-picture{
+            width: 40px;
+            border-radius: 100%;
+         }
+         .video-title{
+            margin-top: 0px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-bottom: 5px;
+         }
+       
+         .thumbnail-row{
+            margin-bottom: 10px;
+         }
+         
+         .video-author,
+         .video-stats{
+            font-size: 12px;
+            color:rgb(96,96,96);
+
+         }
+         .video-author{
+            margin-bottom: 3px;
+         }
+         .video-grid{
+            margin-top:30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+         }
+    </style>
+</head>
+<body>
+    
+  
+    <input class="search-bar" type="text" placeholder="Search">
+
+
+
+  <div class="video-grid">
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-1.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            
+            
+                <p class="video-author">Marques Brownlee</p>
+            
+
+                <p class="video-stats">3.4M Views &#183; 6 months ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-2.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Try not to laugh</p>
+            
+            
+                <p class="video-author">Markie Piller</p>
+            
+
+                <p class="video-stats">19M Views &#183; 3 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-3.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            
+            
+                <p class="video-author">Marques Brownlee</p>
+            
+
+                <p class="video-stats">3.4M Views &#183; 6 months ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel.4.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Try not to laugh</p>
+            
+            
+                <p class="video-author">Markie Piller</p>
+            
+
+                <p class="video-stats">19M Views &#183; 3 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-5.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            
+            
+                <p class="video-author">Marques Brownlee</p>
+            
+
+                <p class="video-stats">3.4M Views &#183; 6 months ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-6.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Try not to laugh</p>
+            
+            
+                <p class="video-author">Markie Piller</p>
+            
+
+                <p class="video-stats">19M Views &#183; 3 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-7.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            
+            
+                <p class="video-author">Marques Brownlee</p>
+            
+
+                <p class="video-stats">3.4M Views &#183; 6 months ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-8.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Inside The World's Biggest Passenger Plane</p>
+            
+            
+                <p class="video-author">Tech Vision</p>
+            
+
+                <p class="video-stats">1.9M Views &#183; 3 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-9.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">The SECRET to Super Human STRENGTH</p>
+            
+            
+                <p class="video-author">ThenX</p>
+            
+
+                <p class="video-stats">20M Views &#183; 3 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-10.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+            
+            
+                <p class="video-author">Business insider</p>
+            
+
+                <p class="video-stats">14M Views &#183; 1 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-11.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+            
+            
+                <p class="video-author">Destination Trips</p>
+            
+
+                <p class="video-stats">3M Views &#183; 1 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp" alt="">
+
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture"  src="channels/channel-12.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
+            
+            
+                <p class="video-author">TED-Ed</p>
+            
+
+                <p class="video-stats">29M Views &#183; 5 years ago</p>
+                
+                
+            </div>
+        </div>
+
+    </div>
+  </div>
+    
+</body>
+</html>
